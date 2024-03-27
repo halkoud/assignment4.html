@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CE Course Evaluation Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b6d83c;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header img {
+    max-width: 200px;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    
+    
+    
+}
+
+h1 {
+    color: #172710;
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    
+    
+}
+
+legend {
+    font-weight: bold;
+    color: #89994e;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    
+
+    
+    
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+    
+    
+    
+    
+}
+
+button {
+    background-color: #b6d83c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b6d83c;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: #b6d83c;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;    
+    
+}
+</style>
+<body>
+    <header>
+        <a href="https://www.centennialcollege.ca/"><img src="https://media.circuitcdn.com/centennial/images/CentennialCollege_Logo.min-440x260.png" alt="Centennial College Logo"></a>
+    </header>
+    <main>
+        <h1>Continuing Education Course/Instructor Evaluation </h1>
+        <h3>Please read each statement carefully and consider each one individually. Use the computer card to make your choice (use a pencil to fill in the space). Give only one answer for each question.</h3>
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Course Details</legend>
+                <label for="course_name">Course Name/Code:</label>
+                <input type="text" id="course_name" name="course_name" required><br><br>
+                <label for="semester">Semester:</label>
+                <select id="semester" name="semester" required>
+                    <option value="Fall">Fall</option>
+                    <option value="Winter">Winter</option>
+                    <option value="Spring/Summer">Spring/Summer</option>
+                </select><br><br>
+                <label for="year">Year:</label>
+                <input type="number" id="year" name="year" min="1900" max="2099" required><br><br>
+                <label for="Instructor">Instructor:</label>
+                <textarea id="name" name="name"></textarea><br><br>        
+            </fieldset>
+            <fieldset>
+                <legend>INSTRUCTOR</legend>
+                    
+                        <label>How would you rate the instructor's:</label><br>
+                        <label>1. Knowledge of subject?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                    
+                        <label>2. hepulness?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                    
+                        <label>3. Courtesy and respect for all students?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                    
+                        <label>4. Communication skills?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                   
+                        <label>5. Overall performance?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                    
+        
+            </fieldset>
+            <fieldset>
+                <legend>COURSE</legend>
+                
+                   
+                        <label>6. How would you rate the course materials?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                    
+                        <label>7. How much did this course meet your expectations?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                   
+                        <label>8. How would you rate thid course (overall)?</label><br>
+                        <input type="radio" name="knowledge" value="Excellent"> Excellent
+                        <input type="radio" name="knowledge" value="Good"> Good
+                        <input type="radio" name="knowledge" value="Fair"> Fair
+                        <input type="radio" name="knowledge" value="Not Satisfactory"> Not Satisfactory<br><br>
+                    
+                
+            </fieldset>
+            <fieldset>
+                <legend>GENERAL INFORMATION</legend>
+                <label>9. Was the course outline reviewed/explained at the beginning of your course?</label><br>
+                <input type="radio" name="course_outline" value="Yes"> Yes
+                <input type="radio" name="course_outline" value="No"> No
+                <input type="radio" name="course_outline" value="Not Sure"> Not Sure<br><br>
+
+                <label>10. Would you recommend this course to a friend with the same interests?</label><br>
+                <input type="radio" name="recommend_course" value="Yes"> Yes
+                <input type="radio" name="recommend_course" value="No"> No
+                <input type="radio" name="recommend_course" value="Not Sure"> Not Sure<br><br>
+
+            </fieldset>
+            <fieldset>
+                <legend>ANY OTHER COMMENTS (please use the back of the computer card or this paper if necessary)</legend>
+                <label>11. What is the best thing about this course?</label>
+                <textarea id="comments" name="comments"></textarea><br><br>
+                <label>12. How could we improve this course?</label>
+                <textarea id="comments" name="comments"></textarea><br><br>
+                <label>Other:</label>
+                <textarea id="comments" name="comments" rows="4" cols="50"></textarea><br><br>
+
+          
+            <button type="submit">Submit</button>
+        </fieldset>
+        </form>
+        <fieldset>
+        <footer>
+            <p>Thank you! We pay attention to your feedback!</p>
+            <p>Web: <a href="https://www.centennialcollege.ca/continuingeducation">www.centennialcollege.ca/continuingeducation</a></p>
+            <p>Email: <a href="mailto:continuingeducation@centennialcollege.ca">continuingeducation@centennialcollege.ca</a></p>
+        </footer>
+    </fieldset>
+    </main>
+</body>
+</html>
